@@ -1,0 +1,30 @@
+.juiceBar {
+  fill: steelblue;
+}
+
+.juiceBar:hover {
+  fill: orange;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path{
+	fill: none;
+  	stroke: #000;
+  	shape-rendering: crispEdges;
+}
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+h1{
+	text-align: center;
+}
+
+body{
+	text-align: center;
+}
