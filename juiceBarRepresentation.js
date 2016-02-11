@@ -51,7 +51,7 @@ d3.json("./juice_orders", function(error, data) {
       .style("text-anchor", "end")
       .text("noOfOrder");
 
-  svg.selectAll(".bar")
+  svg.selectAll(".juiceBar")
       .data(resultingJuiceData)
     .enter().append("rect")
       .attr("class", "juiceBar")
